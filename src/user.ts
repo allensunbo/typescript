@@ -1,18 +1,8 @@
-/// <reference path="../typings/tsd.d.ts" />
+/// <reference path="../typings/lodash/lodash.d.ts"/>
 
 import _ = require('lodash');
 
 module user {
-    var users: User[] = [{
-        id: 1,
-        name: 'Alex'
-    }, {
-        id: 2,
-        name: 'Bob'
-    }, {
-        id: 3,
-        name: 'John'
-    }];
 
     export interface User {
         id: number;
